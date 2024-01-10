@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+<body>
+    <div class="base">
+        <input type="text" id="visor" disabled>
+        <div class="botoes">
+            <div class="colunas">
+                <div class="b" onclick="apagar()">AC</div>
+                <div class="b" onclick="numero('7')">7</div>
+                <div class="b" onclick="numero('4')">4</div>
+                <div class="b" onclick="numero('1')">1</div>
+                <div class="b" onclick="numero('0')">0</div>
+            </div>
+            <div class="colunas">
+                <div class="b" onclick="raizQuadrada()">&radic;</div>
+                <div class="b" onclick="numero('8')">8</div>
+                <div class="b" onclick="numero('5')">5</div>
+                <div class="b" onclick="numero('2')">2</div>
+                <div class="b" onclick="numero('.')">.</div>
+            </div>
+            <div class="colunas">
+                <div class="b" onclick="operador('/')">/</div>
+                <div class="b" onclick="numero('9')">9</div>
+                <div class="b" onclick="numero('6')">6</div>
+                <div class="b" onclick="numero('3')">3</div>
+                <div class="b" onclick="resultado()">=</div>
+            </div>
+            <div class="colunas">
+                <div class="b" onclick="operador('-')">-</div>
+                <div class="b mais" onclick="operador('*')">&#215;</div>
+                <div class="b mais" onclick="operador('+')">+</div>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
