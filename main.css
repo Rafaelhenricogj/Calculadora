@@ -27,7 +27,6 @@ input{
     flex-direction: row-reverse;
     box-shadow: inset 2px 2px 5px 1px;
     overflow: hidden;
-    font-family: monospace;
     font-size: 20px;
     text-align: end;
     color: black;
